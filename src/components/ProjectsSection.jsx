@@ -1,32 +1,35 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import project1Image1 from '../assets/projects/project1.png';
+import project1Image2 from '../assets/projects/project2.png';
+import project1Image3 from '../assets/projects/project3.png';
 
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Portfolio",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: project1Image1,
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "MegaMart",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A comprehensive multi-category e-commerce platform with complete shopping features, order management, and product rating system.",
+    image: project1Image2,
+    tags: ["HTML-CSS-JS", "Spring Boot", "Mysql"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Shoe Store",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Professional shoe store with smart filtering, shopping cart, and secure online payment processing.",
+    image: project1Image3,
+    tags: ["HTML-CSS-JS", "Django", "Mysql"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -100,7 +103,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/thanhchung1107"
           >
             Check My Github <ArrowRight size={16} />
           </a>
